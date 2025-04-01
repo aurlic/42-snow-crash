@@ -1,6 +1,6 @@
 To find this flag we're first going to check which files we can currently access.
 
-`find / -user flag00 2>/dev/null`
+`find / -user level00 2>/dev/null`
 
 Looking through the list we notice a file that we decide to inspect.
 
