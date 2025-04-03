@@ -27,5 +27,9 @@ We then execute the level08 binary, passing the symlink (`/tmp/bypass`) as the a
 ```bash
 ./level08 /tmp/bypass
 ```
-
-And get the next flag !
+Output:
+```bash
+quif5eloekouj29ke0vouxean
+```
+And get the password to log as `flag08`.
+We then run `getflag` and get the next flag !
