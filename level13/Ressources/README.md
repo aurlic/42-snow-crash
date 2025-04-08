@@ -47,7 +47,7 @@ We observe this portion:
 ```
 This is where the binary checks the UID. We can **bypass this check** by forcing the jump to always be taken.*
 
-We patch the instruction at address `0x0804859a` (the `cmp`) to `nop` out the comparison and force the jump to be always taken:
+We patch the instruction at address `0x0804859f` (the `cmp`) to `nop` out the comparison and force the jump to be always taken:
 
 ```gdb
 set {unsigned char}0x0804859a = 0xeb
